@@ -1,5 +1,5 @@
 # FirstIn Tools v5.0 - Advanced Multi-Position Trading Bot
-### ⚡ Enterprise-Grade Pump.fun Smart Scanner with Intelligent Token Selection ⚡
+### Enterprise-Grade Pump.fun Smart Scanner with Intelligent Token Selection
 
 **The most sophisticated pump.fun trading bot on Solana** - Features intelligent token scanning, multi-position management, and advanced risk controls using real-time WebSocket transaction decoding and algorithmic token selection.
 
