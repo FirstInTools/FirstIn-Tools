@@ -1,24 +1,24 @@
-# 🚀 FirstIn Tools v5.0 - Advanced Multi-Position Trading Bot
+# FirstIn Tools v5.0 - Advanced Multi-Position Trading Bot
 ### ⚡ Enterprise-Grade Pump.fun Smart Scanner with Intelligent Token Selection ⚡
 
 **The most sophisticated pump.fun trading bot on Solana** - Features intelligent token scanning, multi-position management, and advanced risk controls using real-time WebSocket transaction decoding and algorithmic token selection.
 
 ---
 
-## 🎯 Revolutionary Architecture
+## Revolutionary Architecture
 
 **FirstIn Tools v5.0** represents a complete paradigm shift from reactive sniping to **proactive intelligent scanning**. Built with enterprise-grade modular architecture, advanced position management, and sophisticated token analysis algorithms.
 
-### 🧠 Smart Scanner Technology
-- 🔍 **Intelligent Token Analysis**: Advanced ratio-based scoring algorithm
-- 📊 **Multi-Position Management**: Up to 15 simultaneous positions
-- 🎯 **Best Token Selection**: Chooses optimal tokens based on liquidity metrics
-- ⚡ **Real-Time Processing**: Sub-second transaction decoding and analysis
-- 🛡️ **Risk-Optimized**: Conservative position sizing with enhanced safety
+### Smart Scanner Technology
+-  **Intelligent Token Analysis**: Advanced ratio-based scoring algorithm
+-  **Multi-Position Management**: Up to 15 simultaneous positions
+-  **Best Token Selection**: Chooses optimal tokens based on liquidity metrics
+-  **Real-Time Processing**: Sub-second transaction decoding and analysis
+-  **Risk-Optimized**: Conservative position sizing with enhanced safety
 
 ---
 
-## 🏗️ Modular Architecture
+## Modular Architecture
 
 ### Core Modules
 
@@ -57,27 +57,27 @@ FirstIntools/
 
 ---
 
-## 🔥 Advanced Features
+## Advanced Features
 
-### 🧠 Intelligent Scanner Engine
+### Intelligent Scanner Engine
 - **Algorithmic Token Selection**: Analyzes token/SOL ratios to identify optimal entry points
 - **Candidate Pool Management**: Maintains a dynamic pool of potential tokens
 - **Scoring Algorithm**: Ranks tokens based on liquidity depth and ratio efficiency
 - **Time-Window Analysis**: Evaluates tokens within configurable time windows
 
-### 📊 Multi-Position Management
+### Multi-Position Management
 - **Concurrent Trading**: Manage up to 15 simultaneous positions
 - **Position Lifecycle**: Automated buy → monitor → sell workflow
 - **Real-Time Tracking**: Live P&L calculation and position status
 - **Risk Distribution**: Spread risk across multiple tokens
 
-### ⚡ Enhanced Trading Engine
+### Enhanced Trading Engine
 - **Post-Buy Verification**: Confirms token receipt before position activation
 - **Retry Mechanisms**: Advanced error handling with exponential backoff
 - **Fee Recovery**: Automatic token account closure to recover rent exemption
 - **Slippage Protection**: Built-in 2% slippage tolerance
 
-### 🛡️ Enterprise Risk Management
+### Enterprise Risk Management
 - **Conservative Sizing**: Reduced position sizes (0.00118 SOL default)
 - **Timeout Protection**: Automatic position closure after 5 minutes
 - **Balance Verification**: Pre-trade balance checks and validation
@@ -85,7 +85,7 @@ FirstIntools/
 
 ---
 
-## 📈 Performance Metrics
+## Performance Metrics
 
 | Feature | v4.0 (Legacy) | v5.0 (Current) | Improvement |
 |---------|---------------|----------------|-------------|
@@ -98,7 +98,7 @@ FirstIntools/
 
 ---
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 
@@ -138,7 +138,7 @@ npm start
 
 ---
 
-## ⚙️ Advanced Configuration
+## Advanced Configuration
 
 ### Trading Parameters
 
@@ -182,7 +182,7 @@ WS_ENDPOINT=wss://your-endpoint.solana-mainnet.quiknode.pro/YOUR_KEY/
 
 ---
 
-## 🎯 How the Smart Scanner Works
+## How the Smart Scanner Works
 
 ### 1. Real-Time Transaction Monitoring
 ```typescript
@@ -238,7 +238,7 @@ const bestToken = validCandidates.sort((a, b) => b.score - a.score)[0];
 
 ---
 
-## 📊 Live Dashboard
+## Live Dashboard
 
 ### Real-Time Multi-Position Display
 ```
@@ -266,7 +266,7 @@ const bestToken = validCandidates.sort((a, b) => b.score - a.score)[0];
 
 ---
 
-## 🔧 Technical Implementation
+## Technical Implementation
 
 ### WebSocket Architecture
 ```typescript
@@ -333,7 +333,7 @@ async function executeBuy(tokenInfo: TokenInfo): Promise<boolean> {
 
 ---
 
-## 🛡️ Risk Management & Safety
+## Risk Management & Safety
 
 ### Multi-Layer Protection
 1. **Position Limits**: Maximum 15 concurrent positions
@@ -366,7 +366,7 @@ async function executeSellWithRetry(mint: PublicKey, maxRetries = 3) {
 
 ---
 
-## 📊 Performance Optimization
+## Performance Optimization
 
 ### Caching Strategy
 ```typescript
@@ -390,7 +390,7 @@ class BlockhashCache {
 
 ---
 
-## 🔍 Monitoring & Analytics
+## Monitoring & Analytics
 
 ### Real-Time Metrics
 - **Detection Rate**: Tokens discovered per minute
@@ -409,7 +409,7 @@ logInfo('ℹ️ Scanner cycle completed: 5 candidates analyzed');
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Recommended Configuration for Beginners
 ```typescript
@@ -435,7 +435,7 @@ const ADVANCED_CONFIG = {
 
 ---
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Common Issues & Solutions
 
@@ -475,7 +475,7 @@ const ADVANCED_CONFIG = {
 
 ---
 
-## 📈 Advanced Strategies
+## Advanced Strategies
 
 ### Scalping Strategy
 ```typescript
@@ -499,7 +499,7 @@ const SWING_CONFIG = {
 
 ---
 
-## ⚠️ Risk Disclaimer
+## Risk Disclaimer
 
 **IMPORTANT**: This software is for educational and research purposes only.
 
@@ -520,7 +520,7 @@ const SWING_CONFIG = {
 
 ---
 
-## 🔄 Updates & Maintenance
+## Updates & Maintenance
 
 ### Version History
 - **v5.0**: Smart scanner, multi-positions, modular architecture
@@ -538,7 +538,7 @@ npm start
 
 ---
 
-## 📞 Support & Community
+## Support & Community
 
 ### Technical Support
 1. Check logs for detailed error messages
